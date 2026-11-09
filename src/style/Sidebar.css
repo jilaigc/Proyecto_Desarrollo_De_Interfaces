@@ -1,0 +1,36 @@
+.sidebar-externo {
+  display: flex;
+  flex-direction: column;  
+  width: 20rem;
+  background-color: #1e293b;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+/* Estilo para los botones de navegación */
+.sidebar-externo button {
+  margin-top: 2rem;
+  background: #334155;
+  color: #f8fafc;
+  border: none;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 6px; /*Uso de px solo pal borde*/
+  transition: all 0.2s ease;
+}
+
+/* Efecto que ocurre cuando pasas el ratón por encima del botón */
+.sidebar-externo button:hover {
+  background-color: #475569; /* Tono al pasar el ratón */
+  color: #ffffff;
+}
+
+.sidebar-externo button.active {
+  background-color: #3b82f6; /* Azul corporativo moderno para la pestaña seleccionada */  color: #ffffff;
+  color: #ffffff;
+}

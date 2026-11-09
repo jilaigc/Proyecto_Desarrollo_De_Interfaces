@@ -1,0 +1,22 @@
+.nav-menu {
+  display: flex;
+  flex-direction: row; /* Coloca los elementos en horizontal */
+  align-items: center; /* Centra verticalmente */
+  background-color: #090d16;
+  padding: 1rem 2rem;
+  color: white;
+  height: 10rem;
+}
+
+
+img {
+    width: 8rem;
+}
+
+.derecha {
+    margin-left: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #38bdf8;
+}

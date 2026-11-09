@@ -1,0 +1,11 @@
+.incidencias-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+
+.incidencias-container h2 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}

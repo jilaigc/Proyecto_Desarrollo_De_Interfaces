@@ -1,0 +1,32 @@
+.personal-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+
+.personal-container h2{
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+    width: 15rem;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+.cards-grid {
+  display: grid;
+  /* Crea tantas columnas como quepan (cada tarjeta medirá mínimo 260px) */
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  /* Margen de separación (gap) entre las tarjetas tanto en horizontal como en vertical */
+  gap: 1.5rem; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
